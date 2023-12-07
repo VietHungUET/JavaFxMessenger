@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="452.0" stylesheets="@../Utils/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messenger.Controller">
+   <children>
+      <Pane layoutY="628.0" prefHeight="71.0" prefWidth="452.0" styleClass="menu">
+         <children>
+            <ImageView fx:id="chat" fitHeight="59.0" fitWidth="60.0" layoutX="22.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/z4951964677886_bfa702a777d3a79120590f77ae087857.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="callvideo" fitHeight="65.0" fitWidth="90.0" layoutX="115.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/z4951964677559_e1376d4786bda8e94b3c159f294d9161.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="phonebook" fitHeight="59.0" fitWidth="90.0" layoutX="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/z4951964687553_3dee1d7ae034c2a9ba7a92a24bc3c311.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="tin" fitHeight="57.0" fitWidth="65.0" layoutX="361.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/z4951964694459_007465a1e287c4fe4f49f203c2b1c239.jpg" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <AnchorPane fx:id="paneSwitch" prefHeight="631.0" prefWidth="452.0">
+         <children>
+            <ListView fx:id="listMess" layoutY="180.0" prefHeight="449.0" prefWidth="452.0" styleClass="list-cell" />
+            <Pane prefHeight="180.0" prefWidth="452.0" styleClass="bgLoad" AnchorPane.bottomAnchor="451.20000000000005" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="169.0" prefHeight="40.0" prefWidth="118.0" text="Đoạn chat">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="32.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/menu.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="26.0" fitWidth="30.0" layoutX="394.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/2830186.png" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="22.0" layoutY="40.0" prefHeight="33.0" prefWidth="412.0" />
+                  <Label layoutX="61.0" layoutY="44.0" prefHeight="26.0" prefWidth="79.0" text="Tìm kiếm" textFill="#aca7a7">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="26.0" fitWidth="30.0" layoutX="29.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/searchicon.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="96.0" fitWidth="352.0" layoutX="22.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/thanh.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

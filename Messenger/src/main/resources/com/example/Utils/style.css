@@ -1,0 +1,49 @@
+.bgLoad{
+    -fx-background-color:#FFFFFF ;
+
+}
+
+.list-cell{
+    -fx-text-fill: #000000;
+    -fx-font-size: 16;
+    -fx-font-weight: 700;
+    -fx-padding: 5;
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-border-color: TRANSPARENT;
+}
+
+.list-cell:even, .list-cell:odd{
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.list-cell:even{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #ACA7A7;
+    -fx-border-width:0px 0px 1px 0px;
+}
+
+.list-cell:odd {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #ACA7A7;
+    -fx-border-width:0px 0px 1px 0px;
+}
+.
+list-cell:filled:hover,
+.list-cell:filled:selected{
+    -fx-background-color:#bfbfbf;
+    -fx-text-fill: white;
+}
+
+.menu {
+    -fx-background-color:#FFFFFF;
+
+}
+
+.labelTin {
+    -fx-background-radius:5px;
+    -fx-border-radius:5px;
+}
+.title{
+    -fx-text-width: 700;
+}

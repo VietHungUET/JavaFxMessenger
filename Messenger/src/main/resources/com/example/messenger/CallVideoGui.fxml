@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="452.0" stylesheets="@../Utils/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messenger.CallVideoControl">
+   <children>
+      <Pane layoutY="2.0" prefHeight="78.0" prefWidth="452.0" styleClass="bgLoad">
+         <children>
+            <Label alignment="CENTER" layoutX="167.0" layoutY="9.0" prefHeight="40.0" prefWidth="118.0" text="Cuộc gọi">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="49.0" fitWidth="58.0" layoutX="347.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/z4952599803999_183d4e910e01c625bad63fd4f52ce757.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="19.0" fitWidth="20.0" layoutX="68.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/menu.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ListView fx:id="listCall" layoutY="60.0" prefHeight="571.0" prefWidth="452.0" styleClass="list-cell" />
+   </children>
+</AnchorPane>
